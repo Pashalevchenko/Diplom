@@ -360,6 +360,35 @@ button a{
     
 }
 
+.basic h2{
+    font-size: 25px;
+    color: #818b95;
+    text-transform: uppercase;
+    
+}
+.price h2{
+    font-size: 60px;
+    color: #ffbb42;
+    
+    
+}
+
+
+.price p{
+    font-size: 20px;
+    color: #818b95;
+    
+    
+}
+
+.price ul{
+    font-size: 14px;
+    color: #b5bbc1;
+    padding: 30px;
+    list-style: none;
+    
+}
+
 .primium{
     
 }
@@ -368,9 +397,7 @@ button a{
 .gold{
     
 }
-.price ul{
-    list-style: none;
-}
+
 
 
 
