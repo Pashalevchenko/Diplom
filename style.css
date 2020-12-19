@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    width: 1700px;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    border: 3px solid red;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    background: #fff;
+
+}
+
+
+
+.logo{
+    display: flex;
+    width: 100%;
+    max-width: 1225px;
+    border: 5px solid #000;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 25px auto;
+    align-items: center;
+    
+}
+
+
+
+.header_top_links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    
+    
+}
+
+
+.header_top_links ul{
+    
+    
+}
+
+
+.header_top_links a{
+    text-decoration: none;
+    font-size: 13.5px;
+    color: #868686;
+    transition: 0.6s;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.header_top_links a:hover{
+    background: #FFBB42;
+    color: #FFF;
+}
+
+
+
+.banner{
+    width: 1700px;
+    max-width: 100%;
+    height: 590px;
+    background: #709DCA;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.baner_text{
+    color: #fff;
+    margin-top: 110px;
+    border-radius: 2px;
+    
+}
+
+
+.baner_text h1{
+    font-size: 35px;
+    margin: 0 60px;
+    
+}
+
+
+.baner_text p{
+    font-size: 16px;
+}
+
+.request{
+    margin-top: 37px;
+    width: 1090px;
+/*    border: 3px solid #000;*/
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+[class^="input"]{
+/*    padding: 0 20px;*/
+    width: 280px;
+    height: 43px;
+    border: none;
+    outline-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+button{
+    
+    background: #FFBB42;
+    border: none;
+    width: 210px;
+    height: 44px;
+    color: #fff;
+    
+    
+    
+}
+
+
+
+/*
+
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+*/
+
+
+
+
+
+
+
+
+.laptop{
+    margin-top: 67px;
+}
+
+
+
+.service{
+    width: 1700px;
+    max-width: 100%;
+    border: 3px solid red;
+    margin: 0 auto;
+    background: #fff;
+
+}
+
+.service_heading{
+    display: flex;
+    color: #394B50;
+    margin-top: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.service_heading h2{
+    font-size: 30px;
+}
+.service_heading p{
+    font-size: 16px;
+}
+
+
+
+.service_container{
+    display: flex;
+    width: 1170px;
+    max-width: 100%;
+    height: 450px;
+    border: 3px solid black;
+    margin: 15px auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    
+
+}
+
+
+.services_1 {
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.services_2{
+    
+}
+.services_3{
+    
+}
+.services_4{
+    
+}
+.services_5{
+    
+    
+}
+.services_6{
+    
+}
+
+
+[class^="services"]{
+    width: 445px;
+    height: 150px;
+    font-size: 16px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    margin-right: 50px;
+    
+
+}
+
+
+.about_us{
+    display: flex;
+    width: 100%;
+    max-width: 1700px;
+    border: 3px solid #08c;
+    height: 620px;
+    margin: 0 auto;
+    background: #ffc155;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.about_us_img img{
+
+    
+    
+}
+
+.about_us_text{
+    border: 3px solid red;
+    width: 510px;
+    margin: auto;
+    
+}
+
+
+.about_us_text h2{
+    font-size: 30px;
+    color: #fff;
+/*    padding: 30px 0;*/
+    font-weight: 200;
+}
+
+.about_us_text p{
+    font-size: 13px;
+    font-weight: 200;
+    padding: 18px 0;
+    line-height: 23px;
+}
+
+
+.about_us_text a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 14px;
+    transition: 0.5s;
+    
+    
+    
+}
+
+.about_us_text a:hover{
+    border: 1px solid #E7AD48; 
+    box-sizing: border-box;
+}
+
+.choos_your_price_content{
+    background: #fff;
+    width: 1700px;
+    height: 940px;
+    border: 2px solid blue;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+
+
+.price_heading{
+    margin: 135px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.price_heading h2{
+    font-size: 30px;
+    padding: 8px;
+    color: #394b50;
+    text-transform: uppercase;
+    
+}
+
+.price_heading p{
+    font-size: 18px;
+    color: #75888d;
+}
+
+.plan{
+    display: flex;
+    width: 1170px;
+    border: 3px solid #000;
+    justify-content: space-between;
+    margin: 60px auto;
+    
+}
+
+
+.basic{
+    
+    
+    
+}
+
+.primium{
+    
+}
+
+
+.gold{
+    
+}
+.price ul{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
