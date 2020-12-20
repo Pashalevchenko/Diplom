@@ -1,0 +1,32 @@
+
+.container{
+    position: absolute;
+    left: 500px;
+    width: 600px;
+    height: 250px;
+    background-color: lawngreen;
+    display: flex;
+    top: 300px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+
+
+
+h1{
+    
+    
+    color: midnightblue;
+    margin: auto;
+    padding: 5px
+    
+}
+
+
+
+

@@ -119,6 +119,7 @@
     height: 43px;
     border: none;
     outline-color: aqua;
+    font-size: 19px;
 }
 
 
@@ -300,6 +301,7 @@ button a{
     padding: 15px 20px;
     font-size: 14px;
     transition: 0.5s;
+    border: 1px solid #FFC155;
     
     
     
@@ -308,6 +310,7 @@ button a{
 .about_us_text a:hover{
     border: 1px solid #E7AD48; 
     box-sizing: border-box;
+    background: gray;
 }
 
 .choos_your_price_content{
@@ -355,9 +358,84 @@ button a{
 
 
 .basic{
+/*    padding: 88px;*/
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    transition: 0.4s;
     
     
     
+}
+
+.primium h2{
+    
+    font-size: 25px;
+    color: #818b95;
+    text-transform: uppercase;
+}
+
+
+.primium:hover{
+    background: #709DCA   
+
+}
+.basic:hover{
+    background: #709DCA   
+
+}
+.gold:hover{
+    background: #709DCA   
+
+}
+
+
+
+
+.primium li{
+    padding: 5px;
+}
+
+.primium li:nth-child(1n):hover{
+    
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+.basic li{
+    padding: 5px;
+}
+
+.basic li:nth-child(1n):hover{
+    
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+.gold li{
+    padding: 5px;
+}
+
+.gold li:nth-child(1n):hover{
+    
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.price a{
+    padding: 10px;
+    background: #FFBB42;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .basic h2{
@@ -366,9 +444,42 @@ button a{
     text-transform: uppercase;
     
 }
+.basic h2{
+    font-size: 25px;
+    color: #818b95;
+    text-transform: uppercase;
+    
+}
+
+.gold h2{
+    font-size: 25px;
+    color: #818b95;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+
+
+
+
+
+
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
 .price h2{
     font-size: 60px;
     color: #ffbb42;
+    padding: 0 32px;
+    
     
     
 }
@@ -377,7 +488,7 @@ button a{
 .price p{
     font-size: 20px;
     color: #818b95;
-    
+    padding: 0 32px;
     
 }
 
@@ -391,13 +502,30 @@ button a{
 
 .primium{
     
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    transition: 0.4s;
+    
 }
 
 
 .gold{
     
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    transition: 0.4s;
+    
 }
-
 
 
 
