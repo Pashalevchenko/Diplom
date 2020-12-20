@@ -9,7 +9,7 @@
     max-width: 100%;
     height: 100px;
     margin: 0 auto;
-    border: 3px solid red;
+/*    border: 3px solid red;*/
     position: relative;
     box-sizing: border-box;
     align-items: center;
@@ -23,7 +23,7 @@
     display: flex;
     width: 100%;
     max-width: 1225px;
-    border: 5px solid #000;
+/*    border: 5px solid #000;*/
     justify-content: space-between;
     flex-direction: row;
     margin: 25px auto;
@@ -171,7 +171,7 @@ button a{
 .service{
     width: 1700px;
     max-width: 100%;
-    border: 3px solid red;
+/*    border: 3px solid red;*/
     margin: 0 auto;
     background: #fff;
 
@@ -200,7 +200,7 @@ button a{
     width: 1170px;
     max-width: 100%;
     height: 450px;
-    border: 3px solid black;
+/*    border: 3px solid black;*/
     margin: 15px auto;
     flex-wrap: wrap;
     flex-direction: column;
@@ -245,7 +245,7 @@ button a{
     width: 445px;
     height: 150px;
     font-size: 16px;
-    border: 3px solid black;
+/*    border: 3px solid black;*/
     box-sizing: border-box;
     margin-right: 50px;
     
@@ -257,7 +257,7 @@ button a{
     display: flex;
     width: 100%;
     max-width: 1700px;
-    border: 3px solid #08c;
+/*    border: 3px solid #08c;*/
     height: 620px;
     margin: 0 auto;
     background: #ffc155;
@@ -273,7 +273,7 @@ button a{
 }
 
 .about_us_text{
-    border: 3px solid red;
+/*    border: 3px solid red;*/
     width: 510px;
     margin: auto;
     
@@ -317,7 +317,7 @@ button a{
     background: #fff;
     width: 1700px;
     height: 940px;
-    border: 2px solid blue;
+/*    border: 2px solid blue;*/
     display: flex;
     margin: 0 auto;
     flex-direction: column;
@@ -350,7 +350,7 @@ button a{
 .plan{
     display: flex;
     width: 1170px;
-    border: 3px solid #000;
+/*    border: 3px solid #000;*/
     justify-content: space-between;
     margin: 60px auto;
     
