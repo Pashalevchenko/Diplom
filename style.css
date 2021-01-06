@@ -249,7 +249,7 @@ button{
 }
 
 .choos_your_price_content{
-    background: #fff;
+    background: #e7edf3;
     width: 1700px;
     height: 940px;
 /*    border: 2px solid blue;*/
@@ -294,7 +294,7 @@ button{
 
 .basic{
 /*    padding: 88px;*/
-    height: 500px;
+    height: 440px;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -314,15 +314,19 @@ button{
 
 
 .primium:hover{
-    background: #709DCA   
+    background: #709DCA;
+    height: 500px;
 
 }
 .basic:hover{
-    background: #709DCA   
+    background: #709DCA;
+    height: 500px;
+       
 
 }
 .gold:hover{
-    background: #709DCA   
+    background: #709DCA;
+    height: 500px;
 
 }
 
@@ -457,7 +461,7 @@ button{
     width: 1700px;
     height: 860px;
     margin: 0 auto;
-    border: 3px solid red;
+/*    border: 3px solid red;*/
     
 }
 
@@ -541,8 +545,49 @@ button{
     
 }
 
+.happy_clients{
+/*    min-width: 1700px;*/
+    width: 1700px;
+    height: 910px;
+    background: #ffc155;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.happy_clients__text{
+   margin: 140px auto;
+    color: #fff;
+    text-align: center;
+    
+}
+.happy_clients__text h3{
+   font-size: 30px;
+    text-transform: uppercase;
+    
+}
 
 
+.happy_clients__block{
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+.happy_clients__comments{
+    background: #fff;
+    flex: 1;
+    padding: 0px;
+    display: inline-block;
+    
+}
+
+.happy_clients__comments p{
+    display: inline-block;
+}
 
 
 
