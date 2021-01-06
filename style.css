@@ -123,50 +123,18 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 button{
     
     background: #FFBB42;
     border: none;
     width: 210px;
     height: 44px;
-    color: #fff;
-    
-    
-    
+    color: #fff;    
 }
-
-
-
-/*
-
-button a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-}
-*/
-
-
-
-
-
-
-
 
 .laptop{
     margin-top: 67px;
 }
-
-
 
 .service{
     width: 1700px;
@@ -205,41 +173,8 @@ button a{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-end;
-    
 
 }
-
-
-.services_1 {
-    
-    
-}
-
-
-
-
-
-
-
-
-
-.services_2{
-    
-}
-.services_3{
-    
-}
-.services_4{
-    
-}
-.services_5{
-    
-    
-}
-.services_6{
-    
-}
-
 
 [class^="services"]{
     width: 445px;
@@ -367,9 +302,7 @@ button a{
     align-items: center;
     flex: 1;
     transition: 0.4s;
-    
-    
-    
+
 }
 
 .primium h2{
@@ -392,7 +325,6 @@ button a{
     background: #709DCA   
 
 }
-
 
 
 
@@ -454,17 +386,9 @@ button a{
 .gold h2{
     font-size: 25px;
     color: #818b95;
-    text-transform: uppercase;
-    
-    
+    text-transform: uppercase; 
     
 }
-
-
-
-
-
-
 
 .price{
     display: flex;
@@ -479,8 +403,6 @@ button a{
     font-size: 60px;
     color: #ffbb42;
     padding: 0 32px;
-    
-    
     
 }
 
@@ -526,6 +448,128 @@ button a{
     transition: 0.4s;
     
 }
+
+
+.how_it_work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1700px;
+    height: 860px;
+    margin: 0 auto;
+    border: 3px solid red;
+    
+}
+
+.how_it_work__steps{
+    display: flex;
+    width: 1170px;
+}
+
+.how_it_work{
+    text-align: center;
+    position: relative;
+    
+    
+}
+
+[class^="how_it_work__step"]{
+    padding: 0 30px;
+}
+
+.how_it_work__text{
+    margin: 150px;
+    color: #394b50;
+    font-weight: 100;
+}
+
+.how_it_work__text h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.how_it_work__text p{
+    font-size: 16px;
+    
+}
+.text h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.text p{
+    color: #7b7b7b;
+    line-height: 25px;
+    font-size: 16px
+    
+}
+
+.how_it_work_button{
+    margin-top: 90px;
+    
+    
+}
+
+.how_it_work_button a{
+    text-decoration: none;
+    padding: 14px 30px;
+    background: #ffb024;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 1px;
+    
+}
+
+
+.how_it_work__arrow_1{
+    position: absolute;
+    left: 500px;
+    top: 360px;
+    
+}
+.how_it_work__arrow_2{
+    position: absolute;
+    left: 782px;
+    top: 470px;
+    
+}
+.how_it_work__arrow_3{
+    position: absolute;
+    left: 1080px;
+    top: 360px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
