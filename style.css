@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .header{
@@ -562,8 +563,9 @@ button{
     
 }
 .happy_clients__text h3{
-   font-size: 30px;
+    font-size: 30px;
     text-transform: uppercase;
+    padding: 2px;
     
 }
 
@@ -573,20 +575,22 @@ button{
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 60px auto;
     
 }
 
 .happy_clients__comments{
     background: #fff;
-    flex: 1;
-    padding: 0px;
-    display: inline-block;
+    display: flex;
+    width: 565px;
+    height: 240px;
+    
     
 }
 
-.happy_clients__comments p{
-    display: inline-block;
+.happy_clients__com{
+    color: #000;
+
 }
 
 
