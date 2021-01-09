@@ -620,7 +620,8 @@ button{
 }
 .happy_clients__face_2{
     position: relative;
-    top: 0px;
+    top: 10px;
+    left: -5px;
 }
 .happy_clients__face_3{
     position: relative;
@@ -637,7 +638,7 @@ button{
     width: 355px;
     position: relative;
     top: 50px;
-    right: 45px;
+    right: 25px;
     line-height: 20px;
 }
 
@@ -656,6 +657,26 @@ button{
     
 }
 
+
+
+.happy_clients__open_breaket{
+    font-size: 30px;
+    position: absolute;
+    top: 2px;
+    left: -17px;
+}
+
+
+
+
+.happy_clients__close_breaket{
+    font-size: 30px;
+    display: inline-block;
+    transform: scale(1, -1);
+    position: absolute;
+    top: 75px;
+    left: 250px;
+}
 
 
 
