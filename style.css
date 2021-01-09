@@ -191,8 +191,7 @@ button{
 
 .about_us{
     display: flex;
-    width: 100%;
-    max-width: 1700px;
+    width: 1700px;
 /*    border: 3px solid #08c;*/
     height: 620px;
     margin: 0 auto;
@@ -639,7 +638,24 @@ button{
     position: relative;
     top: 50px;
     right: 45px;
+    line-height: 20px;
 }
+
+.happy_clients__com p{
+    font-size: 13px;
+    color: #7b7b7b;
+    
+}
+
+.happy_clients__name{
+    margin: 17px auto;
+    text-transform: uppercase;
+    
+}.happy_clients__name spam{
+    color: #f6772c; 
+    
+}
+
 
 
 
