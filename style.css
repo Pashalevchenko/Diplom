@@ -557,7 +557,8 @@ button{
 }
 
 .happy_clients__text{
-   margin: 140px auto;
+    position: relative;
+    top: 143px;
     color: #fff;
     text-align: center;
     
@@ -573,8 +574,9 @@ button{
 .happy_clients__block{
     width: 1170px;
     height: 500px;
-    border: 3px solid blue;
+/*    border: 3px solid blue;*/
     position: relative;
+    top: 205px;
     
     
     
@@ -586,7 +588,7 @@ button{
     display: flex;
     width: 565px;
     height: 240px;
-    border: 2px solid red;
+/*    border: 2px solid red;*/
     justify-content: space-between;
     
 }
@@ -616,7 +618,8 @@ button{
 
 .happy_clients__face_1{
     position: relative;
-    top: 0px;
+    top: 33px;
+    left: 20px;
 }
 .happy_clients__face_2{
     position: relative;
@@ -625,11 +628,13 @@ button{
 }
 .happy_clients__face_3{
     position: relative;
-    top: 0px;
+    top: 13px;
+    left: 11px;
 }
 .happy_clients__face_4{
     position: relative;
-    top: 0px;
+    top: 38px;
+    left: 3px;
 }
 
 
