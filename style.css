@@ -256,15 +256,18 @@ button{
     display: flex;
     margin: 0 auto;
     flex-direction: column;
+    align-items: center;
+    
 }
 
 
 
 .price_heading{
-    margin: 135px auto;
+/*    margin: 135px auto;*/
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     
 }
 
@@ -286,8 +289,11 @@ button{
     display: flex;
     width: 1170px;
 /*    border: 3px solid #000;*/
-    justify-content: space-between;
-    margin: 60px auto;
+    justify-content: center;
+/*    margin: 60px auto;*/
+    align-items: center;
+    position: relative;
+    top: 250px;
     
 }
 
@@ -300,69 +306,38 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
+/*    flex: 1;*/
     transition: 0.4s;
+    background: #fff;
 
+}
+
+.primium_price{
+    color: #fff;
 }
 
 .primium h2{
     
     font-size: 25px;
-    color: #818b95;
     text-transform: uppercase;
 }
 
-
-.primium:hover{
-    background: #709DCA;
-    height: 500px;
-
-}
-.basic:hover{
-    background: #709DCA;
-    height: 500px;
-       
-
-}
-.gold:hover{
-    background: #709DCA;
-    height: 500px;
-
-}
-
-
-
 .primium li{
-    padding: 5px;
+    padding: 10px;
+    border-top: 1px solid #e7edf3;
 }
-
-.primium li:nth-child(1n):hover{
-    
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-}
-
 
 .basic li{
-    padding: 5px;
-}
-
-.basic li:nth-child(1n):hover{
-    
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
+    padding: 10px;
+    border-top: 1px solid #e7edf3;
 }
 
 
 .gold li{
-    padding: 5px;
+    padding: 10px;
+    border-top: 1px solid #e7edf3;
 }
 
-.gold li:nth-child(1n):hover{
-    
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-}
 
 .price a{
     padding: 10px;
@@ -423,6 +398,7 @@ button{
     color: #b5bbc1;
     padding: 30px;
     list-style: none;
+
     
 }
 
@@ -434,22 +410,25 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
+/*    flex: 1;*/
     transition: 0.4s;
-    
+    background: #709DCA;
+    color: #fff;
 }
+
 
 
 .gold{
     
-    height: 500px;
+    height: 440px;
     width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
+/*    flex: 1;*/
     transition: 0.4s;
+    background: #fff;
     
 }
 
@@ -463,6 +442,20 @@ button{
     margin: 0 auto;
 /*    border: 3px solid red;*/
     
+}
+
+
+.price_self h2{
+    color: #fff;
+}
+
+
+.price_self p{
+    color: #fff;
+}
+
+.price_self ul{
+    color: #fff;
 }
 
 .how_it_work__steps{
