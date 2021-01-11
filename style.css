@@ -202,6 +202,9 @@ button{
 }
 
 .about_us_img img{
+    width: 99.2%;
+    position: relative;
+    top: 2px;
 
     
     
