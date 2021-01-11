@@ -433,7 +433,6 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-/*    flex: 1;*/
     transition: 0.4s;
     background: #fff;
     
@@ -481,9 +480,6 @@ button{
     
 }
 
-[class^="how_it_work__step"]{
-    padding: 0 30px;
-}
 
 .how_it_work__text{
     color: #394b50;
@@ -510,7 +506,8 @@ button{
 .text p{
     color: #7b7b7b;
     line-height: 25px;
-    font-size: 16px
+    font-size: 16px;
+    padding: 0 35px;
     
 }
 
@@ -535,20 +532,20 @@ button{
 
 .how_it_work__arrow_1{
     position: absolute;
-    left: 508px;
+    left: 502px;
     top: 280px;
     
 }
 .how_it_work__arrow_2{
     position: absolute;
     left: 782px;
-    top: 470px;
+    top: 390px;
     
 }
 .how_it_work__arrow_3{
     position: absolute;
     left: 1080px;
-    top: 360px;
+    top: 280px;
     
 }
 
