@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+
+@font-face{
+    font-family: 'OpenSans-Regular';
+    src: url('fonts/OpenSans-Regular.ttf');
+}
+
 .header{
     display: flex;
     width: 1700px;
@@ -193,6 +199,9 @@ button{
 
 .service__text h2{
     text-transform: uppercase;
+}
+.service__text{
+    font-family: 'OpenSans-Regular';
 }
 
 
