@@ -20,11 +20,19 @@
 }
 @font-face{
     font-family: 'Lato-Bold.ttf';
-    src: url('fonts/Lato-Bold.ttf.ttf');
+    src: url('fonts/Lato-Bold.ttf');
 }
 @font-face{
     font-family: 'Lato-Light.ttf';
-    src: url('fonts/Lato-Light.ttf.ttf');
+    src: url('fonts/Lato-Light.ttf');
+}
+@font-face{
+    font-family: 'BrandonGrotesque-Bold.ttf';
+    src: url('fonts/BrandonGrotesque-Bold.ttf');
+}
+@font-face{
+    font-family: 'Gotham-Black.ttf';
+    src: url('Gotham-Black.ttf');
 }
 
 .header{
@@ -113,6 +121,7 @@
 .baner_text h1{
     font-size: 35px;
     margin: 0 60px;
+    font-family: 'Gotham-Black.ttf';
     
 }
 
@@ -177,6 +186,7 @@ button{
 
 .service_heading h2{
     font-size: 30px;
+    font-family: 'Gotham-Black.ttf';
     
 }
 .service_heading p{
@@ -254,6 +264,7 @@ button{
     color: #fff;
 /*    padding: 30px 0;*/
     font-weight: 200;
+    font-family: 'Gotham-Black.ttf';
 }
 
 .about_us_text p{
@@ -271,6 +282,7 @@ button{
     font-size: 14px;
     transition: 0.5s;
     border: 1px solid #FFC155;
+    font-family: 'Lato-Regular';
     
     
     
@@ -314,6 +326,7 @@ button{
     padding: 8px;
     color: #394b50;
     text-transform: uppercase;
+    font-family: 'Gotham-Black.ttf';
     
 }
 
@@ -385,6 +398,7 @@ button{
     color: #fff;
     text-transform: uppercase;
     border-radius: 1px;
+    font-family: 'Lato-Regular';
 }
 
 .basic h2{
@@ -418,10 +432,13 @@ button{
     font-size: 60px;
     color: #ffbb42;
     padding: 0 32px;
+    font-family: 'Lato-Bold.ttf';
      
 }
 .price sup{
     font-size: 45px;
+    font-family: 'Lato-Light.ttf';
+    font-weight: 100;
 }
 
 
@@ -431,6 +448,7 @@ button{
     color: #818b95;
     padding: 0 32px;
     text-transform: uppercase;
+    font-family: 'Lato-Light.ttf';
     
 }
 
@@ -443,9 +461,21 @@ button{
     text-align: center;
     text-transform: uppercase;
     font-size: 13.5px;
+    font-family: 'Lato-Regular';
 
     
 }
+
+
+.price li{
+    font-family: 'Lato-Regular';
+}
+
+
+
+
+
+
 
 .primium{
     
@@ -528,16 +558,20 @@ button{
 .how_it_work__text h2{
     text-transform: uppercase;
     font-size: 30px;
+    font-family: 'Gotham-Black.ttf';
 }
 
 .how_it_work__text p{
     font-size: 16px;
+    font-family: 'Lato-Light.ttf';
     
 }
 .text h3{
     text-transform: uppercase;
     font-size: 20px;
     margin-bottom: 30px;
+    font-family: 'Lato-Bold.ttf';
+    
 }
 
 .text p{
@@ -545,6 +579,7 @@ button{
     line-height: 25px;
     font-size: 16px;
     padding: 0 35px;
+    
     
 }
 
@@ -563,6 +598,7 @@ button{
     border-radius: 1px;
     position: relative;
     bottom: -235px;
+    font-family: 'Lato-Regular';
     
 }
 
@@ -608,6 +644,7 @@ button{
     font-size: 30px;
     text-transform: uppercase;
     padding: 2px;
+    font-family: 'Gotham-Black.ttf';
     
 }
 
@@ -698,7 +735,13 @@ button{
     margin: 17px auto;
     text-transform: uppercase;
     
-}.happy_clients__name spam{
+}
+
+.happy_clients__name p{
+    font-family: 'Lato-Regular';
+}
+
+.happy_clients__name spam{
     color: #f6772c; 
     
 }
@@ -710,6 +753,7 @@ button{
     position: absolute;
     top: 2px;
     left: -17px;
+    font-family: 'BrandonGrotesque-Bold.ttf';
 }
 
 
@@ -720,8 +764,9 @@ button{
     display: inline-block;
     transform: scale(1, -1);
     position: absolute;
-    top: 75px;
+    top: 95px;
     left: 250px;
+    font-family: 'BrandonGrotesque-Bold.ttf';
 }
 
 
