@@ -2,12 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'OpenSans-Regular';
 }
 
 
 @font-face{
     font-family: 'OpenSans-Regular';
     src: url('fonts/OpenSans-Regular.ttf');
+}
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url('fonts/Lato-Regular.ttf');
+}
+@font-face{
+    font-family: 'OpenSans-Light';
+    src: url('fonts/OpenSans-Light.ttf');
+}
+@font-face{
+    font-family: 'Lato-Bold.ttf';
+    src: url('fonts/Lato-Bold.ttf.ttf');
+}
+@font-face{
+    font-family: 'Lato-Light.ttf';
+    src: url('fonts/Lato-Light.ttf.ttf');
 }
 
 .header{
@@ -50,12 +67,6 @@
 }
 
 
-.header_top_links ul{
-    
-    
-}
-
-
 .header_top_links a{
     text-decoration: none;
     font-size: 13.5px;
@@ -64,6 +75,8 @@
     padding: 10px 18px;
     border-radius: 5px;
     text-transform: uppercase;
+    font-family: 'Lato-Regular';
+    
     
     
     
@@ -106,6 +119,7 @@
 
 .baner_text p{
     font-size: 16px;
+    font-family: 'OpenSans-Light';
 }
 
 .request{
@@ -199,6 +213,7 @@ button{
 
 .service__text h2{
     text-transform: uppercase;
+    font-family: 'Lato-Bold.ttf';
 }
 .service__text{
     font-family: 'OpenSans-Regular';
@@ -340,6 +355,7 @@ button{
     text-transform: uppercase;
     position: relative;
     top: -10px;
+    font-family: 'Lato-Light.ttf';
     
 }
 
@@ -377,6 +393,7 @@ button{
     text-transform: uppercase;
     position: relative;
     top: -10px;
+    font-family: 'Lato-Light.ttf';
     
 }
 
@@ -386,6 +403,7 @@ button{
     text-transform: uppercase;
     position: relative;
     top: -10px;
+    font-family: 'Lato-Light.ttf';
      
     
     
