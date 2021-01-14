@@ -880,19 +880,29 @@ button{
 
 .newsletter__contacts h3{
     font-family: 'Lato-Bold.ttf';
-    font-size: 15px;
+    font-size: 14px;
     color: #fff;
     text-transform: uppercase;
     position: absolute;
+    top: 71px;
 }
 
 .newsletter__contacts p{
     color: #fff;
-    padding: 5px 0;
-    font-size: 13px;
+    padding: 3px 0;
+    font-size: 11px;
+    color: #aeb7ba;
+    
 }
 
 
+.newsletter__contacts a{
+    color: #ffbb42;
+    font-size: 11px;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+}
 
 
 
