@@ -844,7 +844,14 @@ button{
 }
 
 .newsletter__button{
-    width: 220px
+    width: 220px;
+    
+    text-transform: uppercase;
+}
+
+.newsletter__button spam{
+    font-family: 'Lato-Regular';
+    font-size: 14px;
 }
 
 
