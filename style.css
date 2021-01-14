@@ -148,8 +148,9 @@
     width: 280px;
     height: 43px;
     border: none;
-    outline-color: aqua;
+    
     font-size: 19px;
+    outline-style: none;
 }
 
 
@@ -790,16 +791,116 @@ button{
 }
 
 
+.newsletter{
+    width: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+
+
+.newsletter__text{
+    text-align: center;
+    margin-top: 155px;
+    color: #394b50;
+}
+
+
+.newsletter__text h3{
+    text-transform: uppercase;
+    font-family: 'Gotham-Black.ttf';
+    font-size: 30px;
+    
+    
+}
+
+
+.newsletter__text p{
+    font-size: 16px;
+}
+
+.newsletter__inputs{
+    width: 935px;
+    height: 47px;
+/*    border: 2px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.newsletter__inputs_username{
+    width: 310px;
+    outline-style: none;
+    color: #a9a9a9;
+}
+
+.newsletter__inputs_email{
+    width: 388px;
+    outline-style: none;
+    color: #a9a9a9;
+    
+}
+
+.newsletter__button{
+    width: 220px
+}
+
+
+.newsletter__map{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newsletter__address{
+    position: relative;
+    top: -520px;
+}
+
+
+
+
+.newsletter__contacts{
+    background-image: url(img/Shape%204.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 285px;
+    border: 1px solid red;
+    justify-content: center;
+    
+    
+    
+}
+
+.newsletter__contacts h3{
+    font-family: 'Lato-Bold.ttf';
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.newsletter__contacts p{
+    color: #fff;
+    padding: 5px 0;
+    font-size: 13px;
+}
 
 
 
 
 
 
-
-
-
-
+.newsletter__img_logo{
+    display: flex;
+    justify-content: center;
+}
 
 
 
