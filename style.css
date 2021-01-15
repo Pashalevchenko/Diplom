@@ -919,9 +919,67 @@ button{
     justify-content: center;
 }
 
+.footer_manu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1700px;   
+}
+
+.footer_manu__navlinks{
+    list-style: none;
+    display: flex;
+}
+
+.footer_manu__navlinks{
+    
+}
+
+.footer_manu__navlinks a{
+    text-decoration: none;
+    color: #394b50;
+    font-family: 'Lato-Regular';
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-weight: 500;
+}
+
+.footer_manu__number{
+    margin-top: 20px;
+}
 
 
 
+.footer_manu__number a{
+    font-family: 'Lato-Regular';
+    text-decoration: none;
+    font-size: 22.5px;
+    color: #394b50;
+}
+
+.footer_manu__number img{
+    padding-right: 10px;
+}
+
+
+.footer_manu__social_media{
+    
+}
+
+
+.footer_manu__socmedia_links{
+    display: flex;
+}
+
+
+.footer_manu__socmedia_links li{
+    list-style: none;
+}
+
+.footer_manu__socmedia_links a{
+    
+}
 
 
 
