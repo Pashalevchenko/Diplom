@@ -941,8 +941,16 @@ button{
     font-family: 'Lato-Regular';
     font-size: 13px;
     text-transform: uppercase;
-    padding: 0 15px;
+    padding: 10px 15px;
     font-weight: 500;
+    transition: 0.4s;
+    border-radius: 3px;
+}
+
+.footer_manu__navlinks a:hover{
+    background: #FFBB42;
+    color: #FFF;
+    
 }
 
 .footer_manu__number{
